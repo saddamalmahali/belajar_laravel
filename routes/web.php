@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/rijaldi', function(){
+    return view('rijaldi');
+});
+Route::get('/depi', function(){
+    return view('depi');
+});
