@@ -18,6 +18,9 @@ Route::get('/', function () {
 Route::get('/rijaldi', function(){
     return view('rijaldi');
 });
+Route::get('/saddam', function(){
+    return view('saddam');
+});
 Route::get('/depi', function(){
     return view('depi');
 });
